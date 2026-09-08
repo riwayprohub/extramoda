@@ -1,0 +1,1 @@
+import{C as o}from"./index-DOTtjKdr.js";const e=t=>o.get("/products",{params:t}),r=t=>o.get(`/products/${t}`),d=()=>o.get("/products/categories"),u=t=>o.post("/products",t),a=(t,s)=>o.put(`/products/${t}`,s),p=t=>o.delete(`/products/${t}`);export{d as a,r as b,u as c,p as d,e as g,a as u};
